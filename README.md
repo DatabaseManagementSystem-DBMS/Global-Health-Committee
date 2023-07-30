@@ -1,8 +1,6 @@
-## CS4.301 : Data and Applications  
-## PROJECT PHASE 4
-
-# Global Health Committee 
-# Database Designed to Manage the Operations in GHC 
+# Data and Applications  
+## Global Health Committee 
+## Database Designed to Manage the Operations in GHC 
 
 ```
 mysql -u root -p
