@@ -1,4 +1,19 @@
-# DnA PROJECT PHASE 4
+## CS4.301 : Data and Applications  
+## PROJECT PHASE 4
+
+# Global Health Committee 
+# Database Designed to Manage the Operations in GHC 
+
+```
+mysql -u root -p
+```
+
+* Copy and paste entire GHC.sql in your mysql.
+
+```
+python3 GHC.py
+```
+
 
 ### 1. Retrieval
 ### a. Queries
