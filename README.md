@@ -2,24 +2,24 @@
 
 ## Global Health Committee Database - Managing Operations in GHC
 
-*Prerequisites:* Follow the instructions in [this blog post](https://blog.rajnath.dev/mysql/) to install MySQL in WSL (Windows Subsystem for Linux).
+**Prerequisites:** Follow the instructions in [this blog post](https://blog.rajnath.dev/mysql/) to install MySQL in WSL (Windows Subsystem for Linux).
 
-*Main Code:* To change the MySQL password back, use the following command:
-
+**Main Code:** To change the MySQL password back, use the following command:
+```
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+```
 
-
-*MySQL Setup:* Run MySQL with the following command (replace 'password' with your MySQL password):
-
+**MySQL Setup:** Run MySQL with the following command (replace 'password' with your MySQL password):
+```
 mysql -u root -p
+```
 
+**Database Import:** Copy and paste the entire content of `GHC.sql` into your MySQL.
 
-*Database Import:* Copy and paste the entire content of `GHC.sql` into your MySQL.
-
-*GHC.py Execution:* Run GHC.py using Python3:
-
+**GHC.py Execution:** Run GHC.py using Python3:
+```
 python3 GHC.py
-
+```
 
 ## 1. Queries
 ### • Selection
